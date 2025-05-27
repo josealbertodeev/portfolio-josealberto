@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid #444;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
+
+.light{
+    background-color: #eee;
+    color: #000;
+}
+
+.light header{
+    background-color: #ddd;
+}
+
+header {
+    background-color: #111;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section,
+footer {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 40px;
+}
+
+footer h2{
+    font-size: 26px;
+}
+
+footer p {
+    font-size: 17px;
+}   
+
+section {
+    border-bottom: 1px solid #444;
+}
+
+.sobre {
+    margin-bottom: 20px;
+}
+
+.funcao {
+    font-size: 26px;
+}
+
+.habilidades {
+    display: flex;
+    gap: 40px;
+
+}
+
+.habilidade {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+li {
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: #0080C0;
+}
+
+.light a:hover{
+    color: #555;
+}
+
+button{
+    padding: 5px 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eee;
+}
+
+.light button{
+    background-color: #aaa;
+
+}
+
+button:hover{
+    background-color: #bbb;
+    transition: 0.3s;
+}
+
+.light button:hover{
+    background-color: #777;
+}
+
+.projetos {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.amarelo{
+    color: yellow;
+}
+
+.vermelho{
+    color: red;
+}
+
+.informacoes-contato{
+    display: none;
+}
+
+.informacoes-contato.visivel{
+    display: block;
+}
